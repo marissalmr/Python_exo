@@ -5,7 +5,7 @@ def is_pair(n) :
     return False
 
 
-for i in range(2,21) :
+for i in range(2,30) :
     result = is_pair(i)
     if result is True :
-        print(f"{i} il est pair")
+        print(f"{i} est pair")
