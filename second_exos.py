@@ -1,6 +1,4 @@
 # second exos file
-from itertools import count
-
 
 phrase = input("Donnez moi une phrase: ")
 voyelles = ["a","e","i","o","u","y"]
