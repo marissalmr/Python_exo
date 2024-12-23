@@ -1,6 +1,5 @@
 import random
 
-from functions_custom import choiix
 
 def choiix(utilisateur, aleatoire) :
     """
