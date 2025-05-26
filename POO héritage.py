@@ -1,4 +1,9 @@
-# Créé par melin, le 23/04/2025 en Python 3.7
+# Crée une classe Vehicule avec un nom et une quantité d’essence. Elle contient une méthode se_deplacer() qui affiche un message générique.
+#Puis, crée deux classes qui héritent de Vehicule : Voiture, qui a en plus une puissance, et redéfinit la méthode se_deplacer() pour afficher "Je roule..."
+#Avion, qui a en plus une marchandise transportée, et redéfinit aussi se_deplacer() avec un message personnalisé.
+#Enfin, crée un objet Voiture et un objet Avion, puis appelle leur méthode se_deplacer() pour tester le comportement de chaque classe.
+
+
 class Vehicule : #class mere
     def __init__(self,nom_vehicule, quantite_essence):
         self.nom = nom_vehicule
@@ -46,4 +51,3 @@ voiture1.se_deplacer()
 av1 = Avion("F22", 2400, "Missiles")
 av1.se_deplacer()
 
-help(for)

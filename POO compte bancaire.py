@@ -1,3 +1,6 @@
+#Crée deux classes : CompteBancaire avec un nom et un solde, protégés par une propriété (property) qui empêche les valeurs négatives.
+#Portefeuille qui gère une somme d’argent avec vérification à l’ajout et au retrait, ainsi qu’une propriété avec getter, setter et deleter.
+
 
 class CompteBancaire:
     def __init__(self,nom,solde):
