@@ -1,3 +1,5 @@
+#Tu as une rangée de n interrupteurs (ex : [False, False, False]).
+#Chaque fois que tu appuies sur un interrupteur à la position i, il inverse son état ET celui juste après (i+1). Ton but est d’obtenir toutes les lumières allumées (True).
 lumiere = [0,0,0,0,0,0]
 nombre = 1
 choix = int(input("1 pour le 1er interupteur, sinon 2 ou 3"))
